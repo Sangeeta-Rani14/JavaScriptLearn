@@ -223,7 +223,7 @@ console.log(typeof anObj === "string"); // false
 // Use .slice() to extract substrings given two indices:
 
 var s = "0123456789abcdefg";
-console.log(s.slice(0, 5)); // "01234"
+console.log(s.slice(1, 5)); // "01234"
 console.log(s.slice(5, 6)); // "5"
 
 // Given one index, it will take from that index to the end of the string:
